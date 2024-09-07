@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="src/styles.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-    <h1>Weather Forecast</h1>
-    <div class="search-bar">
-    <form><input type="search" placeholder="Enter city..." />
-    <span class="search-button">
-    <input type="submit" value="Search" /></form>
+    <h1>Weather Forecaster</h1>
+    <div>
+    <form><input type="search" placeholder="Enter city..." class="search-bar"/>
+    <span>
+    <input type="submit" value="Search" class="search-button" /></form>
     </span>
      </div>
 </header>
-<main id="current-forecast">
+<main class="current-forecast">
     <table>
         <tr>
         <td>
@@ -44,7 +47,7 @@
     </table>
     <button>C</button><button>F</button>
 </main>
-<main id="future-forecast">
+<main class="future-forecast">
     <h1>7 day forecast:</h1>
     <table>
         <tr>
