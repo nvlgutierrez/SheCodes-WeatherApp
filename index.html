@@ -7,11 +7,57 @@
     <link rel="stylesheet" href="src/styles.css"></link>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <header>
+    <h1>Weather Forecast</h1>
+    <div class="search-bar">
+    <form><input type="search" placeholder="Enter city..." />
+    <span class="search-button">
+    <input type="submit" value="Search" /></form>
+    </span>
+     </div>
+</header>
+<main id="current-forecast">
+    <table>
+        <tr>
+        <td>
+    <h2 id="current-temp"> 21 &deg C </h2>
+    </td>
+    <td><h2 id="current-city">Montreal</h2>
+    </td>
+</tr>
+<tr>
+    <td>
+        <p>
+        Humidity:87% 
+        <br />
+        Wind: 5.3km/h
+        </p>
+    </td>
+    <td>
+        Partly Cloudy
+        <br />
+        Sunday, 13:03
+    </td>
+</tr>
+    </table>
+    <button>C</button><button>F</button>
+</main>
+<main id="future-forecast">
+    <table>
+        <tr>
+            <td>Sunday</td>
+            <td>Sunday</td>
+            <td>Sunday</td>
+            <td>Sunday</td>
+            <td>Sunday</td>
+            <td>Sunday</td>
+        </tr>
+    </table>
+</main>
     <footer>
       Coded by
       <a href="https://github.com/nvlgutierrez" target="_blank">Nadine G</a> and
-      is
+      is open sourced
       <a
         href="https://github.com/nvlgutierrez/SheCodes-WeatherApp"
         target="_blank"
