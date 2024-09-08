@@ -44,9 +44,6 @@ a:hover {
   transition: all 200ms ease-in-out;
   color: #ff9b90;
 }
-a:visited {
-  color: #ff9b90;
-}
 
 footer {
   width: 600px;
@@ -141,6 +138,28 @@ footer {
 
 .seven-day-forecast {
   text-align: left;
+}
+
+.one-day-forecast {
+  padding: 15px 30px;
+  border-right: 1px solid #264e70;
+}
+.weather-icon {
+  font-size: 25px;
+  text-align: center;
+}
+
+.day-of-week {
+  color: #ff9b90;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.condition {
+  color: #264e70;
+  font-size: 15px;
+  text-align: center;
 }
 
 body {
