@@ -139,6 +139,10 @@ footer {
   box-shadow: 2px 5px 5px rgb (0, 0, 0, 0.3);
 }
 
+.seven-day-forecast {
+  text-align: left;
+}
+
 body {
   font-family: "Inria Sans", sans-serif;
   background: #f5f5f5;
