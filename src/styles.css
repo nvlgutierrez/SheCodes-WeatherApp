@@ -3,13 +3,18 @@ header {
   padding: 5px 10px;
   margin-top: 30px;
   border-radius: 10px;
-  width: 70%;
+  width: 600px;
 }
 
 form {
   display: flex;
   justify-content: center;
   padding: 10px 10px;
+}
+main {
+  width: 600px;
+  margin-top: 15px;
+  padding: 5px 10px;
 }
 
 h1 {
@@ -26,16 +31,32 @@ h2 {
   margin-top: 10px;
   margin-bottom: 0px;
 }
+p {
+  color: #264e70;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+a {
+  color: #679186;
+}
+a:hover {
+  transition: all 200ms ease-in-out;
+  color: #ff9b90;
+}
+a:visited {
+  color: #ff9b90;
+}
 
 footer {
-  width: 70%;
+  width: 600px;
   margin-top: 15px;
   text-align: center;
   font-size: 11px;
 }
 .main-content {
-  position: relative;
-  left: 25%;
+  position: absolute;
+  left: 30%;
 }
 .search-bar {
   height: 32px;
@@ -53,40 +74,69 @@ footer {
   margin-left: 12px;
 }
 
+.search-button:hover {
+  transition: all 200ms ease-in-out;
+  opacity: 80%;
+}
+
 .current-forecast {
   background-color: #fff8ef;
   border-radius: 20px;
   box-shadow: 0px 30px 50px rgb (65, 50, 100, 0.3);
-  width: 70%;
-  margin-top: 15px;
-  padding: 5px 10px;
 }
-
+.current-conditions {
+  padding-left: 40px;
+}
+.current-temp-icon {
+  font-size: 40px;
+  position: relative;
+  top: -8px;
+}
 .current-temp {
   font-size: 64px;
-  padding-left: 60px;
+  padding-left: 0px;
+}
+
+.humidity-wind {
+  padding-left: 50px;
+  margin-bottom: 0px;
+  position: relative;
+  top: -10px;
 }
 
 .measurement {
   font-size: 45px;
-  text-align: top;
+  position: relative;
+  top: -5px;
 }
 
 .current-city {
   color: #264e70;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   text-align: right;
-  padding-left: 160%;
+  padding-left: 210px;
+  position: relative;
+  bottom: -10px;
 }
 
+.condition-date-time {
+  text-align: right;
+  padding-left: 210px;
+  position: relative;
+  top: -10px;
+}
+
+.unit-select {
+  padding-top: 0px;
+  padding-left: 55px;
+  position: relative;
+  top: -10px;
+}
 .future-forecast {
   background-color: #fff8ef;
   border-radius: 20px;
   box-shadow: 2px 5px 5px rgb (0, 0, 0, 0.3);
-  width: 70%;
-  margin-top: 15px;
-  padding: 5px 10px;
 }
 
 body {

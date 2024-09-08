@@ -32,22 +32,27 @@
           <tr>
             <td>
               <h2>
-                <span class="current-temp">21</span>
-                <span class="measurement">&degC</span>
+                <div class="current-conditions">
+                  <span class="current-temp-icon">⛅</span>
+                  <span class="current-temp">21</span>
+                  <span class="measurement">&degC</span>
+                </div>
               </h2>
             </td>
             <td><span class="current-city">Montreal</span></td>
           </tr>
           <tr>
             <td>
-              <p>
-                Humidity:87%
+              <p class="humidity-wind">
+                <strong>Humidity: </strong
+                ><span class="current-humidity">87%</span>
                 <br />
-                Wind: 5.3km/h
+                <strong>Wind:</strong
+                ><span class="current-wind"> 5.3km/h </span>
               </p>
             </td>
             <td>
-              <p>
+              <p class="condition-date-time">
                 Partly Cloudy
                 <br />
                 Sunday, 13:03
@@ -55,7 +60,6 @@
             </td>
           </tr>
         </table>
-        <button>C</button><button>F</button>
       </main>
       <main class="future-forecast">
         <h1>7 day forecast:</h1>
