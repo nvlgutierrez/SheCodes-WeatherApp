@@ -4,77 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="src/styles.css"></link>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-    <h1>Weather Forecaster</h1>
-    <div>
-    <form><input type="search" placeholder="Enter city..." class="search-bar"/>
-    <span>
-    <input type="submit" value="Search" class="search-button" /></form>
-    </span>
-     </div>
-</header>
-<main class="current-forecast">
-    <table>
-        <tr>
-        <td>
-    <h2 id="current-temp"> 21 &deg C </h2>
-    </td>
-    <td><h2 id="current-city">Montreal</h2>
-    </td>
-</tr>
-<tr>
-    <td>
-        <p>
-        Humidity:87% 
-        <br />
-        Wind: 5.3km/h
-        </p>
-    </td>
-    <td>
-        <p>
-        Partly Cloudy
-        <br />
-        Sunday, 13:03
-        </p>
-    </td>
-</tr>
-    </table>
-    <button>C</button><button>F</button>
-</main>
-<main class="future-forecast">
-    <h1>7 day forecast:</h1>
-    <table>
-        <tr>
+    <div class="main-content">
+      <header>
+        <h1>Weather Forecaster</h1>
+        <div>
+          <form>
+            <input
+              type="search"
+              placeholder="Enter city..."
+              class="search-bar"
+            />
+            <input type="submit" value="Search" class="search-button" />
+          </form>
+        </div>
+      </header>
+      <main class="current-forecast">
+        <table>
+          <tr>
+            <td>
+              <h2>
+                <span class="current-temp">21</span>
+                <span class="measurement">&degC</span>
+              </h2>
+            </td>
+            <td><span class="current-city">Montreal</span></td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                Humidity:87%
+                <br />
+                Wind: 5.3km/h
+              </p>
+            </td>
+            <td>
+              <p>
+                Partly Cloudy
+                <br />
+                Sunday, 13:03
+              </p>
+            </td>
+          </tr>
+        </table>
+        <button>C</button><button>F</button>
+      </main>
+      <main class="future-forecast">
+        <h1>7 day forecast:</h1>
+        <table>
+          <tr>
             <td>Sunday</td>
             <td>Sunday</td>
             <td>Sunday</td>
             <td>Sunday</td>
             <td>Sunday</td>
             <td>Sunday</td>
-        </tr>
-    </table>
-</main>
-    <footer>
-      Coded by
-      <a href="https://github.com/nvlgutierrez" target="_blank">Nadine G</a> and
-      is open sourced
-      <a
-        href="https://github.com/nvlgutierrez/SheCodes-WeatherApp"
-        target="_blank"
-      >
-        on GitHub</a
-      >
-      and hosted
-      <a href="https://panahon-weather-app.netlify.app/" target="_blank">
-        Netflify</a
-      >.
-    </footer>
-    <script src="src/index.js"></script>
+          </tr>
+        </table>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/nvlgutierrez" target="_blank">Nadine G</a>
+        and is open sourced
+        <a
+          href="https://github.com/nvlgutierrez/SheCodes-WeatherApp"
+          target="_blank"
+        >
+          on GitHub</a
+        >
+        and hosted
+        <a href="https://panahon-weather-app.netlify.app/" target="_blank">
+          Netflify</a
+        >.
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
   </body>
 </html>
